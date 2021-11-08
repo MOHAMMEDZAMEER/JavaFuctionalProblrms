@@ -8,7 +8,7 @@ public class FlipCoin {
 	
 	public static void main(String[] args) {
 		
-		try (Scanner sc = new Scanner(System.in)) {
+		Scanner sc = new Scanner(System.in) {
 			System.out.println("Enter the number of times FLIP the COIN*");
 			int n = sc.nextInt();
 			System.out.println("Enter the number of times FLIP the COIN*");
